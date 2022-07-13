@@ -6,7 +6,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<IEvenCalculator, MiltiThreadEvenCalculator>();
+builder.Services.AddSingleton<IEvenCalculator, MultiThreadEvenCalculator>();
 
 var app = builder.Build();
 

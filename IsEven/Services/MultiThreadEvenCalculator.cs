@@ -1,6 +1,6 @@
 ﻿namespace IsEven.Services;
 
-public class MiltiThreadEvenCalculator : IEvenCalculator
+public class MultiThreadEvenCalculator : IEvenCalculator
 {
     public ValueTask<bool> IsEven(int number)
     {
